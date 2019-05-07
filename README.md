@@ -7,21 +7,23 @@ Ele usa a arquitetura MVVM, Retrofit, Koin (para injeção de dependência) e Rx
 
 ## Desafios
 
-O App precisa de várias melhorias, mas no momento estamos com um problema sério onde nem conseguimos abrir o app. A primeira coisa a fazer é corrigir os erros para o app funcionar corretamente.
-Nossa chave do NewsAPI expirou, é preciso gerar uma nova chave e trocar ela (no arquivo Constants.kt) para o app funcionar corretamente, para gerar a nova chave (gere a individual, que não tem custos) e também ter informações sobre o funcionamento da API visite: https://newsapi.org
+O App precisa de várias melhorias, mas no momento estamos com um problema sério onde nem conseguimos abri-lo. A primeira coisa a fazer é corrigir os erros para que ele funcione corretamente. 
 
-Além do app funcionar corretamente temos alguns desafios extras, não são todos obrigatórios mas tudo que for feito será avaliado.
+Nossa chave do NewsAPI expirou! É preciso gerar uma nova chave individual, que não tem custos e trocá-la (no arquivo Constants.kt). Para obter informações sobre o funcionamento da API, visite: https://newsapi.org
+
+Além de fazer com que o app funcione corretamente, temos alguns desafios extras (não são todos obrigatórios, mas tudo que for feito será avaliado).
 
 Os próximos desafios são:
+
  - O App usa a arquitetura MVVM, mas a nova parte que lista as notícias não está muito legal. Precisamos rever a arquitetura dessa parte e deixar no padrão do projeto (a parte que lista os Sources).
- - A listagem de notícias não está paginada e traz apenas as primeiras notícias. Precisamos paginar ela para trazer todas as informações disponíveis.
- - Alguns testes estão quebrando, verificar a sessão de testes abaixo para saber como executar os testes e corrigir o que for necessário.
- - A nova parte de notícias está sem cobertura de testes unitários e UI. Criar os testes para melhorar a cobertura.
- - Você é livre para fazer outras melhorias que ache necessário.
+ - A listagem de notícias não está paginada e traz apenas as primeiras notícias. Precisamos pagina-la para trazer todas as informações disponíveis.
+ - Alguns testes estão quebrando - verifique a sessão de testes abaixo para saber como executá-los e corrigir o que for necessário.
+ - A nova parte de notícias está sem cobertura de testes unitários e UI. Crie os testes para melhorar a cobertura.
+ - Você é livre para fazer outras melhorias que achar necessário.
 
 Faça um pequeno resumo de quais desafios e melhorias foram feitos.
 
-Qualquer dúvida entre em contato.
+Qualquer dúvida, entre em contato.
 
 
 ## Testes
